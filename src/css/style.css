@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    width: 1440px;
+    font-family: "Inter", sans-serif;
+}
+
+body .container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Grey-900);
+}
+
+body .container .developer-card {
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    padding: 40px;
+    text-align: center;
+    background-color: var(--Grey-800);
+}
+
+.container .developer-card .image {
+    width: 75px;
+    margin-bottom: 28px;
+    border-radius: 50%;
+}
+
+.container .developer-card .image img{
+    border-radius: 50%;
+}
+
+.container .developer-card .name {
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: var(--White);
+}
+
+.container .developer-card .city {
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--Green);
+}
+
+.container .developer-card .readme {
+    color: var(--White);
+    font-weight: 300;
+    margin-bottom: 28px;
+}
+
+.container .developer-card .social-media {
+    width: 100%;
+}
+
+.container .developer-card .social-media .developer-media {
+    padding: 15px 0;
+    background-color: var(--Grey-700);
+    margin-bottom: 15px;
+    border-radius: 7px;
+    transition: 0.3s ease-in-out;
+}
+
+.container .developer-card .social-media .developer-media:last-child {
+    margin-bottom: 0;
+}
+
+.container .developer-card .social-media .developer-media:hover{
+    background-color: var(--Green);
+}
+
+.container .developer-card .social-media .developer-media:hover a{
+    color: #000;
+}
+
+.container .developer-card .social-media .developer-media a {
+    color: var(--White);
+    font-size: 1.4rem;
+    font-weight: 500;
+}

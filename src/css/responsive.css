@@ -1,0 +1,7 @@
+@media(max-width: 375px){
+    body .container .developer-card {
+        width: 300px;
+        margin: 0 20px;
+        padding: 20px;
+    }
+}
